@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <div class="page__inner">
+          <div>
+            <img class="page__logo" src="/img/logo_picom.png" alt="" />
+          </div>
+          <div class="account">
+            <div class="account__inner">
+              <div class="account__title">
+                Создать учетную запись
+              </div>
+              <div class="account__subtitle">
+                Уже есть учетная запись?
+                <a class="btn--sm">Войти</a>
+              </div>
+
+              <form action="" method="get">
+                <input class="form__input" type="text" name="login" placeholder="Имя*" /> <br />
+                <input class="form__input" type="email" name="email" placeholder="E-mail*" /> <br />
+                <input class="form__input" type="password" name="password" placeholder="Пароль*" />
+                <div class="checkbox__group">
+                  <input class="input__checkbox" type="checkbox" id="data" name="data" checked />
+                  <label class="text__checkbox" for="data"
+                    ><p> Я даю согласие на обработку персональных данных, указанных
+                    в условиях <span><a href=""> Пользовательского соглашения</a></span></p></label
+                  >
+                </div>
+
+                <button type="submit" class="btn--big">Создать учетную запись</button>
+              </form>
+            </div> <!-- account__inner -->
+          </div> <!-- account -->
+        </div> <!-- page__inner -->
+      </div> <!-- container -->
+    </div> <!-- page -->
+  </body>
+</html>
